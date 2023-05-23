@@ -62,20 +62,20 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     justify-content: space-evenly;
 }
 
 .hero_container .right img{
     height: 50vh;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 0 0 100px ;
 }
 
 .hero_container .left p{
     height: auto;
     width: auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 70px;
@@ -130,6 +130,7 @@ body {
         display: none;
     }
     .hero_container .left p{
+        font-size: 55px;
         text-align: center;
         padding: 0px;
         width: 100%;
@@ -147,7 +148,7 @@ body {
 
 @media screen and (max-width: 575px) {
     .hero_container .left p{
-        font-size: 55px;
+        font-size: 45px;
         line-height: 60px;
     }
     .hero_container{
@@ -312,7 +313,7 @@ body {
 
 @media screen and (max-width: 575px) {
     .fheading {
-        font-size: 55px;
+        font-size: 45px;
         margin-top: 50px;
         padding: 0 20px;
     }
