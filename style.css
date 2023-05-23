@@ -449,6 +449,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 10px;
     /* border: 1px solid whitesmoke;
     background: white; */
 }
@@ -504,8 +505,8 @@ body {
     }
 
     .resultcard div:nth-child(1) {
-        width: 100px;
-        height: 100px;
+        width: 105px;
+        height: 105px;
     }
     
     .resultcard img {
@@ -545,8 +546,8 @@ body {
     }
 
     .resultcard div:nth-child(1) {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
     
     .resultcard img {
