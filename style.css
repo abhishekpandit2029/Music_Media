@@ -59,27 +59,29 @@ body {
 .hero_container{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
     height: auto;
     /* border: 1px solid red; */
-    place-content: center;
-    padding-left: 50px;
+    justify-content: space-evenly;
 }
 
 .hero_container .right img{
-    height: 60vh;
+    height: 50vh;
     /* border: 1px solid red; */
+    margin: 0 0 0 100px ;
 }
 
 .hero_container .left p{
     height: auto;
-    width: 500px;
+    width: auto;
     /* border: 1px solid red; */
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 68px;
+    font-size: 70px;
     line-height: 80px;
-    padding: 60px 0 0 50px ;
+    word-spacing: 10px;
+    padding: 0 30px 0 130px ;
 }
 
 .hero_container .left p span, .flipping p span, .vlf1{
@@ -92,13 +94,14 @@ body {
         /* padding: 0 50px; */
     }
     .hero_container .right img{
-        height: 50vh;
+        height: 45vh;
+        margin: 0 0 0 40px ;
     }
     
     .hero_container .left p{
         font-size: 65px;
         line-height: 70px;
-        padding: 30px 0 0 40px ;
+        padding: 0 30px 0 50px ;
     }
 }
 
@@ -108,14 +111,14 @@ body {
         /* padding: 0 40px; */
     }
     .hero_container .right img{
-        height: 40vh;
+        height: 35vh;
+        margin: 0 0 0 30px;
     }
     
     .hero_container .left p{
-        width: 400px;
-        font-size: 60px;
+        font-size: 55px;
         line-height: 60px;
-        padding: 30px 0 0 40px ;
+        padding: 0 10px 0 40px ;
     }
 }
 
@@ -131,7 +134,6 @@ body {
         padding: 0px;
         width: 100%;
         font-weight: 900;
-        font-size: 60px;
         line-height: 80px;
     }
     .hero_container{
@@ -145,7 +147,7 @@ body {
 
 @media screen and (max-width: 575px) {
     .hero_container .left p{
-        font-size: 48px;
+        font-size: 55px;
         line-height: 60px;
     }
     .hero_container{
@@ -243,15 +245,13 @@ body {
 }
 
 .flip-card {
-    width: 300px;
+    width: 280px;
     height: 400px;
     background-color: rgb(247, 244, 244);
 
 }
 
 .flip-card-inner {
-    position: relative;
-    left: 15px;
     width: 280px;
     height: 400px;
     text-align: center;
@@ -297,7 +297,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .svg1 {
@@ -312,7 +312,7 @@ body {
 
 @media screen and (max-width: 575px) {
     .fheading {
-        font-size: 48px;
+        font-size: 55px;
         margin-top: 50px;
         padding: 0 20px;
     }
@@ -560,7 +560,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 0 20px;
+    padding: 0 30px;
     margin-bottom: 40px;
     /* border: 1px solid red; */
 }
@@ -639,7 +639,7 @@ input[type=submit]{
     }
 }
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 767px){
     .contactitems input{
         width: 100%;
     }
